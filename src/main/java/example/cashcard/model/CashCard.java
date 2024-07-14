@@ -10,6 +10,6 @@ import org.springframework.data.annotation.Id;
  *
  * @author DGIE - J72 Aprovisionamiento de Tecnología y Datos Económicos
  */
-public record CashCard(@Id Long id, Double amount) {
+public record CashCard(@Id Long id, Double amount, String owner) {
     
 }
